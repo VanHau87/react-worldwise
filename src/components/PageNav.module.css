@@ -1,0 +1,12 @@
+.nav {
+  width: 30%;
+  background-color: aqua;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav ul li :global(a.active) {
+  color: red;
+}
